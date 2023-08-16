@@ -121,8 +121,3 @@ app.post('/api/hello', (req, res) => {
 // last line of server.js
 app.get('*', (req, res) => {res.sendFile(path.join(__dirname + '/readsomething/build/index.html'));
 });
-
-
-
-
-

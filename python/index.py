@@ -3,7 +3,7 @@ import json
 
 r = sr.Recognizer()
 with sr.Microphone() as source:
-    # print("Say Something")
+    print("Say Something") # 음성 인식 시작을 알림 할 때 주석처리 필요
     speech = r.listen(source, timeout=5)
 
 # sys.stdout = open('audio_output.txt', 'w', encoding='utf-8') #-- 텍스트 저장시 사용
