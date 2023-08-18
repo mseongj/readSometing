@@ -36,3 +36,4 @@ except sr.RequestError as e:
 # copliot 참고 8/2
 # google speech to text api
 # google cloud sdk 설치
+# 8/18 google speech to text api reserch
